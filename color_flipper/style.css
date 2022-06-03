@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    font-weight: normal;
+}
+
+:root{
+    --spacing: 0.25rem;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    background: white;
+}
+
+body{
+    background-color: lightsalmon;
+}
+
+.first{
+    width: 15rem;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0.25rem;
+    color: #49A6E9;
+}
+
+.second{
+    display: flex;
+    width: 25rem;
+    background-color: white;
+    justify-content: flex-end;
+    font-family: 'Roboto', sans-serif;
+    list-style-type: none;
+}
+.second a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-size: 1rem;
+    letter-spacing: 0.25rem;
+
+}
+.second li{
+    padding: 0 0 0 25px;
+}
+
+.container{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 35vh 0 0 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.container h1{
+    background-color: #222222;
+    color: white;
+    border-radius: 5px;
+    width: fit-content;
+    padding: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+    letter-spacing: var(--spacing);
+    margin-bottom: 40px;
+}
+
+.container span{
+    color: #49A6ED;
+    font-weight: bold;
+}
+
+button{
+    font-size: 15px;
+    font-weight: bold;
+    padding: 15px 22px 15px 22px;
+    border-radius: 5px;
+    letter-spacing: var(--spacing);
+    text-transform: uppercase;
+    background: none;
+    cursor: pointer;
+}
+button:hover{
+    background: #222222;
+    color: white;
+    transition: all 0.3s linear;
+}
